@@ -1,5 +1,3 @@
--- discord.gg/syncrypt
-
 local lib = loadstring(game:HttpGet("https://cdn.project-reverse.org/Library.luau"))()
 local genv = typeof(getgenv) == "function" and getgenv() or _G
 
