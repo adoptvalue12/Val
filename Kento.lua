@@ -15,7 +15,7 @@ local StarterGui = game:GetService("StarterGui")
 local HttpService = game:GetService("HttpService")
 local CoreGui = game:GetService("CoreGui")
 
-local AUTHOR = "@Glukhar58"
+local AUTHOR = "@yuno_pro"
 local VERSION = "8.0"
 
 local function Notify(text, dur)
@@ -28,7 +28,7 @@ local function Notify(text, dur)
     end)
 end
 
-Notify("⏳ Загрузка WindUI...", 3)
+Notify("⏳ Wait WindUI...", 3)
 
 local WindUI
 local MIRRORS = {
@@ -89,7 +89,7 @@ watermarkLabel.BackgroundTransparency = 0.3
 watermarkLabel.TextColor3 = Color3.fromHex("#FFD700")
 watermarkLabel.TextSize = 14
 watermarkLabel.Font = Enum.Font.GothamBold
-watermarkLabel.Text = "💛 Kento Hub | @ScriptKENTO"
+watermarkLabel.Text = " yuno Hub | @ScriptKENTO"
 watermarkLabel.BorderColor3 = Color3.fromHex("#FFD700")
 watermarkLabel.BorderSizePixel = 2
 watermarkLabel.Parent = CoreGui
